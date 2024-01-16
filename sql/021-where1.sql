@@ -1,6 +1,6 @@
 -- Author: Timo Kemppinen <timo.kemppinen@tuni.fi>
 -- Date: 2024-16-01
--- File: 015-query3.sql
+-- File: 021-where1.sql
 
 SELECT ename, sal
 FROM   emp
