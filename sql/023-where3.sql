@@ -1,5 +1,5 @@
 -- Author: Timo Kemppinen <timo.kemppinen@tuni.fi>
--- Date: 2024-16-01
+-- Date: 2024-01-17
 -- File: 023-where3.sql
 
 SELECT ename, sal
