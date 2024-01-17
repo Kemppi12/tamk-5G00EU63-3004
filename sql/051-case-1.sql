@@ -6,7 +6,7 @@ UPDATE emp
 SET job = 'SALES PERSON'
 WHERE job = 'SALESMAN';
 
-SELECT ename, job
+SELECT ename, job AS 'New Job Name'
 FROM emp
 ORDER BY job ASC, ename ASC;
 
