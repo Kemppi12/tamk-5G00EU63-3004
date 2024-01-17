@@ -1,5 +1,5 @@
 -- Author: Timo Kemppinen <timo.kemppinen@tuni.fi>
--- Date: 2024-17-01
+-- Date: 2024-01-17
 -- File: 026-where6.sql
 
 SELECT ename
