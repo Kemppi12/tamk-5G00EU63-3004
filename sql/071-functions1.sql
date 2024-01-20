@@ -1,6 +1,6 @@
 -- Author: Timo Kemppinen <timo.kemppinen@tuni.fi>
--- Date: 2024-01-17
--- File: 052-case2.sql
+-- Date: 2024-01-20
+-- File: 071-functions1.sql
 
 SELECT  LOWER(ename) AS 'Name',
         LOWER(job) AS 'Job',
