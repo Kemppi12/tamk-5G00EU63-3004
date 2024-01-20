@@ -3,7 +3,7 @@
 -- File: 014-query2.sql
 
 SELECT ename
-       , (sal/4)
+       , sal
 AS 'first quarter'
 FROM   emp
 ;
