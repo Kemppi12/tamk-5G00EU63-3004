@@ -2,8 +2,8 @@
 -- Date: 2024-01-17
 -- File: 014-query2.sql
 
-SELECT ename
-       , sal
+SELECT ename,
+       sal * 3
 AS 'first quarter'
 FROM   emp
 ;
