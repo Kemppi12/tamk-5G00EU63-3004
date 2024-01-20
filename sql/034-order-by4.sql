@@ -5,7 +5,7 @@
 SELECT ename AS 'Employee',
        sal AS 'Monthly Salary',
        sal * 1.10 AS 'Sal 10%',
-       comm * 1.10 AS 'Comm'
+       comm AS 'Comm'
 FROM emp
 WHERE comm > sal * 1.10
 ORDER BY ename ASC, sal ASC, comm ASC;
