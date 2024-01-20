@@ -3,8 +3,8 @@
 -- File: 051-case1.sql
 
 UPDATE emp
-SET job = 'SALES PERSON'
-WHERE job = 'SALESMAN';
+SET UPPER(job) = 'SALES PERSON'
+WHERE UPPER(job) = 'SALESMAN';
 
 SELECT ename, job AS 'New Job Name'
 FROM emp
