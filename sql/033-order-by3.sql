@@ -6,7 +6,7 @@ SELECT deptno
         AS 'Dept',
         ename
         AS 'Employee',
-        sal * 0.31
+        sal * 0.31 * 12
         AS Taxes
 FROM emp
 WHERE deptno = 10
