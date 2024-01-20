@@ -4,9 +4,9 @@
 
 
 SELECT  ename AS 'Name',
-LENGTH (ename) AS 'Characters'
+LENGTH(ename) AS 'Characters'
 FROM emp
-ORDER BY LENGTH (ename) ASC, ename ASC
+ORDER BY LENGTH(ename) ASC, ename ASC
 ;
 
 -- End of file
