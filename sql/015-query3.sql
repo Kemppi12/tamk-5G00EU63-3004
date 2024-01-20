@@ -5,7 +5,7 @@
 SELECT job
 FROM   emp
 GROUP BY  job
-HAVING COUNT(*) = 1
+HAVING COUNT(DISTINCT empno) = 1
 ORDER BY job ASC;
 ;
 
