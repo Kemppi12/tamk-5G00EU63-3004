@@ -2,10 +2,10 @@
 -- Date: 2024-01-17
 -- File: 012-correct-sql-statement.sql
 
-SELECT empno
-       , sal * 12
-         AS "ANNUAL SALARY"
-       , ename
+SELECT empno,
+        ename,
+        ,sal * 12
+        AS "ANNUAL SALARY"
 FROM emp
 ;
 
