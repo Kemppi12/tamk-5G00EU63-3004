@@ -3,8 +3,8 @@
 -- File: 083-group-functions3.sql
 
 
-SELECT MAX (sal) AS 'high',
-        MIN (sal) AS 'low'
+SELECT MAX(sal) AS 'high',
+        MIN(sal) AS 'low'
 FROM emp
 WHERE deptno = 30 OR deptno = 10;
 
