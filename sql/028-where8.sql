@@ -7,7 +7,7 @@ SELECT ename
         ,comm
 FROM   emp
 WHERE  comm IS NOT NULL
-OR comm <> 0
+AND comm <> 0
 ;
 
 -- End of file
