@@ -6,8 +6,8 @@ SELECT ename
         ,job
         ,sal
 FROM   emp
-WHERE  (( job = 'CLERK'
-        OR job = 'ANALYST')
+WHERE  (( UPPER(job) = 'CLERK'
+        OR UPPER(job) = 'ANALYST')
         AND (sal <> 1000
         OR sal <> 1500))
 ;
