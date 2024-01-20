@@ -6,7 +6,7 @@
 SELECT  ename AS 'Name',
 LENGTH(ename) AS 'Characters'
 FROM emp
-ORDER BY LENGTH(ename) ASC, ename ASC
+ORDER BY LENGTH(LOWER(ename)) ASC, LOWER(ename) ASC;
 ;
 
 -- End of file
