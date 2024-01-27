@@ -4,7 +4,7 @@
 
 
 CREATE TABLE person (
-    id INTEGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY NOT NULL,
     last_name AS 'last' VARCHAR(50) NOT NULL,
     first_name AS 'first' VARCHAR(50) NOT NULL,
     phone VARCHAR(20) CHECK (phone LIKE '+%'),
