@@ -4,7 +4,7 @@
 
 
 SELECT  ename AS 'Name',
-LENGTH(ename) AS 'Characters'
+LENGTH(UPPER(ename)) AS 'Characters'
 FROM emp
 ORDER BY LENGTH(UPPER(ename)) ASC, UPPER(ename) ASC;
 ;
