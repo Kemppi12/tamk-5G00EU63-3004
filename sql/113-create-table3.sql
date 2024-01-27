@@ -8,7 +8,7 @@ CREATE TABLE weather (
     time_of_reading VARCHAR(50) NOT NULL,
     high INTEGER NOT NULL,
     low INTEGER NOT NULL,
-    signature VARCHAR(50),
+    "signature" VARCHAR(50),
     comment VARCHAR(50),
 );
 
