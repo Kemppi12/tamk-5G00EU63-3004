@@ -6,9 +6,9 @@
 CREATE TABLE weather (
     id INTEGER PRIMARY KEY NOT NULL,
     time_of_reading VARCHAR(50) NOT NULL,
-    high FLOAT NOT NULL,
-    low FLOAT NOT NULL,
-    "signature" VARCHAR(50),
+    [high] FLOAT NOT NULL,
+    [low] FLOAT NOT NULL,
+    [signature] VARCHAR(50),
     comment VARCHAR(50),
 );
 
