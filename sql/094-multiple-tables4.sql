@@ -7,7 +7,7 @@ SELECT  emp.ename,
         dept.dname
 FROM    emp
 JOIN    dept ON emp.deptno = dept.deptno
-WHERE   emp.ename LIKE '%a%'
+WHERE   UPPER(emp.ename) LIKE '%a%'
 AND emp.sal > 1100 AND emp.sal <= 2200
 ORDER BY emp.ename ASC
 ;
