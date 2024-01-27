@@ -10,9 +10,9 @@ CASE
         ELSE comm * 1.05
       END
     ELSE comm
-  END AS updated_comm
+  END AS comm
 FROM  emp
-ORDER BY  ename ASC,  updated_comm ASC
+ORDER BY  ename ASC,  comm ASC
 ;
 
 -- End of file
