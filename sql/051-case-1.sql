@@ -2,7 +2,7 @@
 -- Date: 2024-01-17
 -- File: 051-case1.sql
 
-SELECT  ename,
+SELECT  ename AS 'Name',
         CASE
             WHEN UPPER(job) = 'SALESMAN' THEN 'SALES PERSON'
             ELSE job
