@@ -3,7 +3,7 @@
 -- File: 072-functions2.sql
 
 
-SELECT   ename AS 'Name',
+SELECT   LOWER(ename) AS 'Name',
 LENGTH(LOWER(ename)) AS 'Characters'
 FROM   emp
 ORDER BY   Characters ASC,  LOWER(Name) ASC;
