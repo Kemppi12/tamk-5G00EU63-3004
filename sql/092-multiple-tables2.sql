@@ -6,7 +6,7 @@
 SELECT  emp.job
 FROM    emp
 JOIN    dept ON emp.deptno = dept.deptno
-WHERE   dept.loc = 'BOSTON' OR dept.loc = 'NEW YORK'
+WHERE   LOWER(dept.loc) = 'BOSTON' OR LOWER(dept.loc) = 'NEW YORK'
 ORDER BY job ASC
 ;
 
