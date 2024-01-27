@@ -5,12 +5,12 @@
 
 CREATE TABLE person (
     id INTEGER UNIQUE PRIMARY KEY NOT NULL,
-    "last" VARCHAR(50) NOT NULL,
-    "first" VARCHAR(50) NOT NULL,
+    [last] VARCHAR(50) NOT NULL,
+    [first] VARCHAR(50) NOT NULL,
     phone VARCHAR(20) CHECK (phone LIKE '+%'),
-    zip VARCHAR(10),
+    zip VARCHAR(20),
     city VARCHAR(50),
-    address VARCHAR(255)
+    [address] VARCHAR(255)
 );
 
 -- End of file
