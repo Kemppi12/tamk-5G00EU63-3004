@@ -8,7 +8,7 @@ SELECT  emp.ename,
         dept.dname
 FROM    emp
 JOIN    dept ON emp.deptno = dept.deptno
-WHERE   dept.loc = 'DALLAS' OR emp.job = 'SALESMAN'
+WHERE   LOWER(dept.loc) = 'DALLAS' OR LOWER(emp.job) = 'SALESMAN'
 ORDER BY ename ASC
 ;
 
