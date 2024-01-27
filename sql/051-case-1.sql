@@ -2,11 +2,11 @@
 -- Date: 2024-01-17
 -- File: 051-case1.sql
 
-UPDATE emp
-SET job = 'SALES PERSON'
-WHERE UPPER(job) = 'SALESMAN';
-
-SELECT ename, job AS 'New Job Name'
+SELECT  ename,
+        CASE
+            WHEN UPPER(job) = 'SALESMAN' THEN 'SALES PERSON'
+            ELSE job
+        END AS 'New Job Name'
 FROM emp
 ORDER BY job ASC, ename ASC;
 
