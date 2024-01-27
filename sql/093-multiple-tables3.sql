@@ -8,7 +8,7 @@ SELECT  emp.ename,
         dept.loc
 FROM    emp
 JOIN    dept ON emp.deptno = dept.deptno
-WHERE   emp.comm IS NOT NULL AND > 0
+WHERE   emp.comm IS NOT NULL AND  emp.comm > 0
 ORDER BY ename ASC
 ;
 
