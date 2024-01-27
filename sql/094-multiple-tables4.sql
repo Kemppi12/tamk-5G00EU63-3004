@@ -4,8 +4,7 @@
 
 
 SELECT  emp.ename,
-        dept.dname,
-        dept.loc
+        dept.dname
 FROM    emp
 JOIN    dept ON emp.deptno = dept.deptno
 WHERE   emp.ename LIKE '%a%'
