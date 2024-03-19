@@ -5,19 +5,23 @@ Date: <24-01-23>
 
 DESCRIPTION
 
-<project name>
+Liiga Api
 
-<descriotion: at least 2 paragraphs>
+Liigan runkosarjan sarjataulukko kaudelta 2023-24
 
 INSTALL
 
-<required module install commands>
+npm install sqlite3 --save
 npm install express --save
+npm install dotenv --save
+npm install standard --save-dev
+npm install nodemon --save-dev
 
 
 USAGE
 
 <how to start the server, which port...>
+Npm run start OR node server.js, starts the server on localhost:8080
 
 API DESCRIPTION
 
