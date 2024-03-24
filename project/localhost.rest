@@ -8,7 +8,7 @@ GET http://localhost:8080/joukkueet/2
 
 
 ### Query with name
-GET http://localhost:8080/search?team=ta
+GET http://localhost:8080/search?team=ilves
 
 
 ### Query with amount of losses and points
@@ -16,7 +16,7 @@ GET http://localhost:8080/query?tappiot=15&pisteet=100
 
 
 ### DELETE by id
-DELETE http://localhost:8080/joukkueet/9
+DELETE http://localhost:8080/joukkueet/11
 
 
 ### Add new team

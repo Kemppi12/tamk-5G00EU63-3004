@@ -26,7 +26,6 @@ Npm run start OR node server.js, starts the server on localhost:8080
 
 API DESCRIPTION
 
-<api endpoints and descriptions>
 The API provides endpoints for managing teams in Liiga sarjataulukko.
 Below are the available endpoints along with their descriptions:
 
