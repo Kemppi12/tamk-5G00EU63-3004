@@ -1,0 +1,34 @@
+
+### Get all
+GET http://localhost:8080/joukkueet/
+
+
+### Get by id
+GET http://localhost:8080/joukkueet/2
+
+
+### Query with name
+GET http://localhost:8080/search?team=ta
+
+
+### Query with amount of losses and points
+GET http://localhost:8080/query?tappiot=15&pisteet=100
+
+
+### DELETE by id
+DELETE http://localhost:8080/joukkueet/9
+
+
+### Add new team
+POST http://localhost:8080/joukkueet/
+Content-Type: application/json
+
+{
+  "nimi": "Saipa",
+  "Ottelut": 60,
+  "Voitot": 5,
+  "Tasapelit": 20,
+  "Tappiot": 35,
+  "Lisäpisteet": 10,
+  "Pisteet": 45
+}
