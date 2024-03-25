@@ -1,7 +1,7 @@
 GENERAL
 
-Author: Timo >Kemppinen <timo.kemppinen@tuni.fi>
-Date: <24-03-23>
+Author: Timo Kemppinen <timo.kemppinen@tuni.fi>
+Date: 24-03-23
 
 DESCRIPTION
 
@@ -16,12 +16,9 @@ npm install sqlite3 --save
 npm install express --save
 npm install dotenv --save
 npm install standard --save-dev
-npm install nodemon --save-dev
-
 
 USAGE
 
-<how to start the server, which port...>
 Npm run start OR node server.js, starts the server on localhost:8080
 
 API DESCRIPTION
