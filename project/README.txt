@@ -89,3 +89,5 @@ curl -X POST http://localhost:8080/joukkueet/ -H "Content-Type: application/json
   "Lisäpisteet": 10,
   "Pisteet": 45
 }'
+
+
